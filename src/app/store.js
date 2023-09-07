@@ -1,10 +1,8 @@
 import { configureStore } from '@reduxjs/toolkit'
 import characterReducer from '../features/characters/charactersSlice'
 
-const store = configureStore({
+export const store = configureStore({
     reducer: {
-        charactersFetch: characterReducer
+        fetchingCharacters: characterReducer
     }
 })
-
-export default store

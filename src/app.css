@@ -1,0 +1,36 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.grid-card {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 340px;
+  height: fit-content;
+  border: 1px solid red;
+  margin-top: 20px;
+}
+
+.grid-card-left-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.grid-card-right-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+span:first-child {
+  margin-top: 20px;
+}
+span {
+  margin-bottom: 20px;
+}
